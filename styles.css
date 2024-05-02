@@ -440,6 +440,7 @@ section .background-img-menu .img-menu{
     }
     header figure {
         justify-content: center;
+        padding: 0rem;
     }
 
     .header-scrolled{
@@ -458,6 +459,7 @@ section .background-img-menu .img-menu{
         letter-spacing: 0.13rem;
         margin-right: 0rem;
         margin-top: 1rem;
+        padding: 0rem;
     }
     header nav ul li {
         padding: .5rem;
@@ -565,4 +567,6 @@ section .background-img-menu .img-menu{
     iframe{
         height: 300px;
     }
+
+    
 }

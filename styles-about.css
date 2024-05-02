@@ -29,6 +29,7 @@ header {
     height: 10rem;
     width: 100%;
     transition: all 0.8s;
+    background: rgba(0,0,0, 70%) ;
 }
 
 .gheader-scrolled{
@@ -381,7 +382,8 @@ section .background-img .img{
     justify-content: center; /* Fő tengelyen való középre igazítás */
     align-items: center; /* Átlós tengelyen való középre igazítás */
     position: absolute;
-    transition: all 0.8s
+    transition: all 0.8s;
+    width: 100%;
 }
 .about-menu li a {
     text-decoration: none;

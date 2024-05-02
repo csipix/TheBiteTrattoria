@@ -424,7 +424,8 @@ header figure h1{
     justify-content: center; /* Fő tengelyen való középre igazítás */
     align-items: center; /* Átlós tengelyen való középre igazítás */
     position: absolute;
-    transition: all 0.8s
+    transition: all 0.8s;
+    width: 100%;
 }
 .about-menu li a {
     text-decoration: none;
