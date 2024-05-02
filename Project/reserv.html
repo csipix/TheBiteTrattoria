@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bistro</title>
+    <link rel="stylesheet" href="styles-res.css">
+    <script src="script.js" defer></script>
+    <script src="https://kit.fontawesome.com/8d4c47a3aa.js" crossorigin="anonymous"></script>
+
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+        </style>
+
+</head>
+<body>
+    <section class="fent" id="test">
+        <header class="header" id="headeree" >
+            <figure>
+                <a href="index.html"><img src="imgs/logo3.png" alt=""></a>
+            </figure>
+    
+            <nav>
+                <ul class="menu">
+                    <li><a href="reserv.html">Reservations</a></li>
+                    <li id="myDIV"><a href="contact.html" class="aaaa">Menu / Order</a></li>
+                    <li><a href="aboutus.html">About us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div id="aboutMenu" class="hidden">
+                    <ul class="about-menu">
+                        <!-- <li><a href="#">All Menu</a></li> -->
+                        <li><a href="menu.html#MainD">Dishes</a></li>
+                        <li><a href="menu.html#desert">Desserts</a></li>
+                        <li><a href="menu.html#drinks">Drinks</a></li>
+                    </ul>
+            </nav>
+        </header>
+    </section>
+    
+
+     <div class="ek"></div>
+
+     <!-- RESERV -->
+
+     <section class="dd">
+        <div class="reservation-container" id="reservation-container">
+            <h2>Make a Reservation</h2>
+            <form action="#" method="post" id="reservation-form">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required class="reservation-input">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required class="reservation-input">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required class="reservation-input">
+                </div>
+                <div class="form-group">
+                    <label for="date">Date:</label>
+                    <input type="date" id="date" name="date" required class="reservation-input">
+                </div>
+                <div class="form-group">
+                    <label for="time">Time:</label>
+                    <input type="time" id="time" name="time" required class="reservation-input">
+                </div>
+                <div class="form-group">
+                    <label for="guests">Number of Guests:</label>
+                    <input type="number" id="guests" name="guests" required class="reservation-input">
+                </div>
+                <div class="form-group">
+                    <button type="submit" id="submit-button" class="submit-button">Submit Reservation</button>
+                </div>
+            </form>
+        </div>
+     </section>
+
+
+    <footer>
+        <div class="news">
+            <h4>Subscibe to our newsletter</h4>
+            <form action="">
+                <input type="text" placeholder="youremail@gmail.com" name="email">
+                <button class="gombi"><h1>Subscribe</h1></button>
+            </form>
+            
+        </div>
+
+        <div class="social">
+            <h5>Stay updated</h5>
+            <ul>
+                <li>
+                    <a href="https://www.instagram.com/thebitetrattoria/?fbclid=IwZXh0bgNhZW0CMTAAAR0_sENO3B_04Uhyx_2fyP2yLY4Tr2kUS--3loR49dkC-gNovSqsJOcXa00_aem_ATZwnrabYRyNY04PO0myIThr9ZL8UdQF2aLkdZIVWBOfkhS1e7iXB1hOD7YDaPmlf9K6dFMY2WUqua2AEeSak1Fb" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/porsche/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/TrattoriaBite" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                </li>
+            </ul>
+        </div>
+    </footer>
+ 
+</body>
+</html>
