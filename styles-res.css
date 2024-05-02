@@ -32,9 +32,10 @@ header {
     height: 10rem;
     width: 100%;
     transition: all 0.8s;
+    background: rgba(0,0,0, 70%);
 }
 
-.header-scrolled{
+.gheader-scrolled{
     background: rgba(0,0,0, 70%) 
     
 }
@@ -292,10 +293,15 @@ label {
         justify-content: center;
     }
 
-    .header-scrolled{
-        background: rgba(0,0,0, 100%) 
+    .gheader-scrolled{
+        background: rgba(0,0,0, 100%)  ;
         
     }
+
+    #headeree {
+        background: rgba(0,0,0, 100%) !important;
+    }
+
     nav .menu{
         margin-bottom: 2rem;
         display: block;

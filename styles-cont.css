@@ -28,9 +28,10 @@ header {
     height: 10rem;
     width: 100%;
     transition: all 0.8s;
+    background: rgba(0,0,0, 70%);
 }
 
-.header-scrolled{
+.gheader-scrolled{
     background: rgba(0,0,0, 70%) 
     
 }
@@ -330,7 +331,7 @@ section .background-img .img{
         justify-content: center;
     }
 
-    .header-scrolled{
+    .gheader-scrolled{
         background: rgba(0,0,0, 100%) 
         
     }
